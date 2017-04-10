@@ -1,0 +1,23 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   
+ 	<item android:id="@+id/ActionViewUsers"
+          android:title="View Users"
+          android:orderInCategory="1"
+          android:showAsAction="never" />
+
+    <item android:id="@+id/ActionSetCurrentUser"
+          android:title="Set Current User"
+          android:orderInCategory="2"
+          android:showAsAction="never" />
+
+    <item android:id="@+id/ActionViewCharts"
+          android:title="View Charts"
+          android:orderInCategory="3"
+          android:showAsAction="never" />
+
+    <item android:id="@+id/ActionSettings"
+          android:title="Settings"
+          android:orderInCategory="4"
+          android:showAsAction="never" />
+
+</menu>

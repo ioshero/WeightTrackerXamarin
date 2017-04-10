@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <PreferenceCategory
+   android:summary="Automatic data backup"
+   android:title="Automatic Data Backup" >
+  
+  <CheckBoxPreference
+     android:key="useDropbox"
+     android:summary="Enable/Disable data backup to Dropbox"
+     android:title="Dropbox" />
+
+<!--  <CheckBoxPreference
+     android:key="useGoogleDrive"
+     android:summary="Enable/Disable data backup to Google Drive"
+     android:title="Google Drive" />-->
+ </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Select Data:"
+            android:layout_width="@dimen/header_label_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right" />
+        <Spinner
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:id="@+id/BarChartDataSpinner"
+            android:prompt="@string/bar_spinner_prompt" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/BarChartLinearLayout">
+        <barchart.BarChartView
+            android:id="@+id/MeasurementBarChart"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            bar_width="40"
+            bar_offset="2"
+            bar_color="#FF0000"
+            bar_caption_fontSize="30"
+            bar_caption_innerColor="#000000"
+            bar_caption_outerColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>

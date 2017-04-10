@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Weight Tracker</string>
+	<string name="bar_spinner_prompt">Choose chart data</string>
+	<string-array name="ChartDataArray">
+        <item>Weight Change By Date</item>
+        <item>Weight Change By Month</item>
+        <item>Size Change By Date</item>
+        <item>Size Change By Month</item>
+        <item>Total Weight By Date</item>
+    </string-array>
+</resources>

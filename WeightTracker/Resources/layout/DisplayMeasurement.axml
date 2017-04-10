@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Weight:"
+            android:layout_width="@dimen/display_header_label_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right" />
+        <TextView
+            android:text="157 lbs"
+            android:layout_width="120dp"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayWeight"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold" />
+        <TextView
+            android:text="Hips:"
+            android:layout_width="140dp"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right" />
+        <TextView
+            android:text="0"
+            android:layout_width="@dimen/display_header_label_value_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayHips"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="Left Arm:"
+            android:layout_width="@dimen/display_header_label_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right" />
+        <TextView
+            android:text="0"
+            android:layout_width="@dimen/display_header_label_value_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayLeftArm"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold" />
+        <TextView
+            android:text="Left Thigh:"
+            android:layout_width="@dimen/display_header_label_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right" />
+        <TextView
+            android:text="0"
+            android:layout_width="@dimen/display_header_label_value_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayLeftThigh"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <TextView
+            android:text="Right Arm:"
+            android:layout_width="@dimen/display_header_label_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right" />
+        <TextView
+            android:text="0"
+            android:layout_width="@dimen/display_header_label_value_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayRightArm"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold" />
+        <TextView
+            android:text="Right Thigh:"
+            android:layout_width="@dimen/display_header_label_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right" />
+        <TextView
+            android:text="0"
+            android:layout_width="@dimen/display_header_label_value_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayRightThigh"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4">
+        <TextView
+            android:text="Chest:"
+            android:layout_width="@dimen/display_header_label_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right" />
+        <TextView
+            android:text="0"
+            android:layout_width="@dimen/display_header_label_value_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayChest"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold" />
+        <TextView
+            android:text="Left Calf:"
+            android:layout_width="@dimen/display_header_label_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right" />
+        <TextView
+            android:text="0"
+            android:layout_width="@dimen/display_header_label_value_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayLeftCalf"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5">
+        <TextView
+            android:text="Waist:"
+            android:layout_width="@dimen/display_header_label_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right" />
+        <TextView
+            android:text="0"
+            android:layout_width="@dimen/display_header_label_value_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayWaist"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold" />
+        <TextView
+            android:text="Right Calf:"
+            android:layout_width="@dimen/display_header_label_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right" />
+        <TextView
+            android:text="0"
+            android:layout_width="@dimen/display_header_label_value_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayRightCalf"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout6">
+        <TextView
+            android:text="Abdominal:"
+            android:layout_width="@dimen/display_header_label_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right" />
+        <TextView
+            android:text="0"
+            android:layout_width="@dimen/display_header_label_value_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayAbs"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/linearLayout7">
+        <TextView
+            android:text="Total Size Change:"
+            android:layout_width="300dp"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right"
+            android:layout_gravity="bottom" />
+        <TextView
+            android:text="0"
+            android:layout_width="@dimen/display_header_label_value_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayTotalSizeChange"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout8">
+        <TextView
+            android:text="Total Weight Change:"
+            android:layout_width="300dp"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical|right"
+            android:layout_gravity="bottom" />
+        <TextView
+            android:text="0"
+            android:layout_width="@dimen/display_header_label_value_width"
+            android:layout_height="@dimen/header_label_height"
+            android:id="@+id/DisplayTotalWeightChange"
+            android:textSize="@dimen/header_label_text_size"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+</LinearLayout>
